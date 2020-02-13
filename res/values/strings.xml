@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Activities</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="introduction">This app shows how to use activites to create activities that behave like web pages.</string>
+    <string name="chapter1">Problem</string>
+    <string name="chapter2">Reasoning</string>
+    <string name="chapter3">Understanding</string>
+    <string name="chapter4">Thinking</string>
+    <string name="chapter5">Abstraction</string>
+    
+      <string name="chapter01">Chapter 1: Problem</string>
+    <string name="chapter02">Chapter 2:Reasoning</string>
+    <string name="chapter03">Chapter 3:Understanding</string>
+    <string name="chapter04">Chapter 4:Thinking</string>
+    <string name="chapter05">Chapter 5:Abstraction</string>
+     <string name="bottomtext">These concepts were extracted from \"THE HIDDEN SECRETS FACTS OF REASONING IN GENERAL MEANS\"</string>
+     <string name="clicktochp">Please tap the buttons to go to the chapter:</string>
+</resources>

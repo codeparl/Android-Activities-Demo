@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codeparl.activitydemo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Chapter1" android:theme="@style/AppTheme" android:label="@string/chapter01">
+            <intent-filter>
+                <action android:name="com.codeparl.activitydemo.Chapter1" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Chapter2" android:theme="@style/AppTheme" android:label="@string/chapter02">
+            <intent-filter>
+                 <action android:name="com.codeparl.activitydemo.Chapter2" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain" />
+                
+            </intent-filter>
+        </activity>
+        <activity android:name="Chapter3" android:theme="@style/AppTheme" android:label="@string/chapter03">
+            <intent-filter> <action android:name="com.codeparl.activitydemo.Chapter3" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain" /></intent-filter>
+        </activity>
+        <activity android:name="Chapter4" android:theme="@style/AppTheme" android:label="@string/chapter04">
+            <intent-filter> <action android:name="com.codeparl.activitydemo.Chapter4" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain" /></intent-filter>
+        </activity>
+        <activity android:name="Chapter5" android:theme="@style/AppTheme" android:label="@string/chapter05">
+            <intent-filter>
+                <action android:name="com.codeparl.activitydemo.Chapter5"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+                
+                </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
